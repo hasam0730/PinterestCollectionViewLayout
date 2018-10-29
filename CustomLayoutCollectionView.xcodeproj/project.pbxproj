@@ -17,6 +17,7 @@
 		8B17E55020FA678400AD56A9 /* AnnotatedPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B17E54F20FA678400AD56A9 /* AnnotatedPhotoCell.swift */; };
 		8B17E55220FA699200AD56A9 /* Photos.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B17E55120FA699200AD56A9 /* Photos.plist */; };
 		8B4ADB8E20FB058800795ED4 /* CustomLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4ADB8D20FB058800795ED4 /* CustomLayout.swift */; };
+		8B85E7872187630E005A0F69 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B85E7862187630E005A0F69 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		8B17E54F20FA678400AD56A9 /* AnnotatedPhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotatedPhotoCell.swift; sourceTree = "<group>"; };
 		8B17E55120FA699200AD56A9 /* Photos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Photos.plist; sourceTree = "<group>"; };
 		8B4ADB8D20FB058800795ED4 /* CustomLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLayout.swift; sourceTree = "<group>"; };
+		8B85E7862187630E005A0F69 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				8B17E54D20FA677900AD56A9 /* Photo.swift */,
 				8B17E54F20FA678400AD56A9 /* AnnotatedPhotoCell.swift */,
 				8B4ADB8D20FB058800795ED4 /* CustomLayout.swift */,
+				8B85E7862187630E005A0F69 /* CollectionViewCell.swift */,
 			);
 			path = CustomLayoutCollectionView;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 				8B4ADB8E20FB058800795ED4 /* CustomLayout.swift in Sources */,
 				8B17E55020FA678400AD56A9 /* AnnotatedPhotoCell.swift in Sources */,
 				8B17E53820F9F67100AD56A9 /* PhotoStreamViewController.swift in Sources */,
+				8B85E7872187630E005A0F69 /* CollectionViewCell.swift in Sources */,
 				8B17E54C20F9F78100AD56A9 /* PinterestLayout.swift in Sources */,
 				8B17E53620F9F67100AD56A9 /* AppDelegate.swift in Sources */,
 				8B17E54E20FA677900AD56A9 /* Photo.swift in Sources */,

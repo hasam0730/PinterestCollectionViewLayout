@@ -52,7 +52,7 @@ class CustomLayout: UICollectionViewLayout {
 			
 			cacheAttributes.append(attributes)
 			
-			yOffsetList[column] = yOffsetList[column] + itemHeight
+			xOffsetList[column] = xOffsetList[column] + itemHeight
 			contentHeight = max(contentHeight, itemFrame.maxY)
 			column = column < numberOfColumn-1 ? column + 1 : 0
 			
@@ -61,7 +61,7 @@ class CustomLayout: UICollectionViewLayout {
 	}
 	
 	override var collectionViewContentSize: CGSize {
-		return CGSize(width: contentWidth, height: contentHeight)
+		return CGSize(width: 1000, height: 100)
 	}
 	
 	override func layoutAttributesForElements(in rect: CGRect) -> [UICollectionViewLayoutAttributes]? {
